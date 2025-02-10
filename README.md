@@ -17,6 +17,7 @@ pip install numpy pandas scikit-learn tensorflow keras matplotlib seaborn imbala
 - **Classes**: BENIGN, DoS Hulk, PortScan, DDoS, DoS GoldenEye, FTP-Patator, SSH-Patator, DoS Slowloris, DoS Slowhttptest, Bot, Brute Force, Web Attack - XSS, Infiltration, Web Attack - SQL Injection, Heartbleed
 - **Dataset Imbalance**: Severe
 - **Preprocessing**: Basics done well
+- Link for Dataset: https://www.unb.ca/cic/datasets/ids-2017.html
 
 ## Models Used
 
