@@ -101,9 +101,9 @@ plt.show()
 # 3. **Compare Model Accuracies**
 model_names = ['XGBoost', 'CNN', 'Autoencoder', 'Ensemble']
 accuracies = [
-    99.3,# accuracy_score(y_test_true, np.argmax(xgb_preds, axis=1)) * 100,
+    accuracy_score(y_test_true, np.argmax(xgb_preds, axis=1)) * 100,
     accuracy_score(y_test_true, np.argmax(cnn_preds, axis=1)) * 100,
-    98.6, # accuracy_score(y_test_true, np.argmax(autoencoder_preds, axis=1)),
+    accuracy_score(y_test_true, np.argmax(autoencoder_preds, axis=1)),
     ensemble_accuracy * 100
 ]
 
