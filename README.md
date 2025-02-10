@@ -18,6 +18,7 @@ pip install numpy pandas scikit-learn tensorflow keras matplotlib seaborn imbala
 - **Dataset Imbalance**: Severe
 - **Preprocessing**: Basics done well
 - Link for Dataset: https://www.unb.ca/cic/datasets/ids-2017.html
+- Place the dataset and saved models in appropriate directories and import them by changing the paths
 
 ## Models Used
 
